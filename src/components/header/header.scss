@@ -1,0 +1,64 @@
+$primary-color: #003580;
+$sec-color: #0071c2;
+$primary-font: 'poppins' ,sans-serif;
+
+.header{
+    background-color: $primary-color;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    .headerContainer{
+        width: 100%;
+        max-width: 1100px;
+        margin: 20px 0px 100px 0px;
+
+
+
+        .headerList{
+            display: flex;
+            gap: 40px;
+            margin-bottom: 60px;
+            .headerListItem{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .icon{
+                    font-size: 25px;
+                }
+            }
+
+            .headerListItem.active{
+                background-color: rgba(255, 255, 255, 0.1);
+                border: 1px solid white;
+                padding: 10px;
+                border-radius: 30px;
+            }
+
+        
+
+        }
+
+        .headerTitle{
+            font-size: 48px;
+        }
+        .headerDesc{
+            margin: 20px 0px;
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        .headerBtn{
+            background-color: $sec-color;
+            color: white;
+            font-family: $primary-font;
+            font-weight: 500;
+            border: none;
+            padding: 10px 20px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+    }
+}

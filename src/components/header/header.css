@@ -1,0 +1,67 @@
+.header {
+  background-color: #003580;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .headerContainer {
+  width: 100%;
+  max-width: 1100px;
+  margin: 20px 0px 100px 0px;
+}
+
+.header .headerContainer .headerList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.header .headerContainer .headerList .headerListItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.header .headerContainer .headerList .headerListItem .icon {
+  font-size: 25px;
+}
+
+.header .headerContainer .headerList .headerListItem.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.header .headerContainer .headerTitle {
+  font-size: 48px;
+}
+
+.header .headerContainer .headerDesc {
+  margin: 20px 0px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.header .headerContainer .headerBtn {
+  background-color: #0071c2;
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=header.css.map */
